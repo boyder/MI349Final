@@ -1,1 +1,152 @@
 /* Add screen styles below */
+.top-bar {
+    background-color: #2F2842;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+    width: 179px;
+
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.homepage {
+    background-image: url('sunset.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.picofme {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.maincont {
+    
+    color: #333;
+    /* other maincont styles */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    object-position: 50% 50%;
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h3 {
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+color: #FFF;
+text-align: center;
+font-size: 32px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+body {
+    background-color: #575757;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .picme {
+    width: 538px;
+    height: 708px;
+    flex-shrink: 0;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .aboutcont {
+    display: flex;
+  }
+
+  section {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .abcon {
+    padding-right: 20px;
+  }
+
+  .photo-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .caption {
+    color: #FFF;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-container {
+    padding: 40px 40px 40px 40px;
+  }
